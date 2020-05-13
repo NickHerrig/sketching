@@ -29,12 +29,24 @@ a {
   width: 100%;
 }
 
+.job,
+.button {
+  font-family: "Montserrat", "Quicksand", sans-serif;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
 .wallpaper {
   background-image: url("../img/desmoines.jpg");
   background-position: center;
   background-size: cover;
   opacity: 0.2;
   position: fixed;
+}
+
+.job {
+  color: #ffe479;
+  font-size: 0.75rem;
 }
 
 .picture {
@@ -68,6 +80,18 @@ a {
 
 .about {
   max-width: 26rem;
+}
+
+.hr {
+  background-color: #ff470f;
+  border: none;
+  content: "";
+  height: 1px;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  transform-origin: center left;
+  width: 4rem;
+  
 }
 
 @media screen and (max-width: 799px) {
@@ -105,4 +129,10 @@ a {
     flex-grow: 1;
     flex-shrink 1;
   }
+}
+
+.name {
+  font-size: 2.25rem;
+  line-height: 1.125;
+  margin-bottom: 0.5rem;
 }
