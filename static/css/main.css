@@ -19,7 +19,9 @@ a {
   text-decoration: none;
 }
 
-.wallpaper {
+.wallpaper,
+.picture-shadow,
+.picture-image {
   display: block;
   height: 100%;
   left: 0;
@@ -33,6 +35,24 @@ a {
   background-size: cover;
   opacity: 0.2;
   position: fixed;
+}
+
+.picture {
+  padding-top: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.picture-shadow {
+  border-radius: 1261994px;
+  background-image: radial-gradient(#000 0%, rgba(0, 0, 0, 0) 70%);
+  position: absolute;
+  top: 10%;
+}
+
+.picture-image {
+  border-radius: 1261994px;
+  position: absolute;
 }
 
 .content {
